@@ -1,0 +1,35 @@
+{
+    languages: [
+        {
+            id:"",
+            name:"tulu",
+            script:"kn"
+        }
+    ],
+    users: [
+        {
+            id:"sam",
+            name:"Samuel",
+            email:"smauel@gmail.com",
+            password:"xncsidjcnwa",
+            date: ...
+            points: 123,
+            languages: [kannada,tulu]
+        }
+    ],
+    translations:[
+        {
+            id:"",
+            text:"",
+            translated:"",
+            textScript:"",
+            translatedScript:"",
+            textLanguage:"",
+            translatedLanguage:""
+            author:"sam",
+            date: ...
+            votes:["sam","bill"]
+
+        },
+    ]
+}

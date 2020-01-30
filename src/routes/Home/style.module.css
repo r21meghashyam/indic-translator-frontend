@@ -1,0 +1,48 @@
+.home{
+  color:#555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 500px;
+  margin:auto;
+}
+.home>*{
+  padding:10px;
+}
+.home select{
+  margin:10px;
+}
+
+.textToTranslate,.translatedText{
+  width: 100%;
+}
+.textToTranslate textarea,.transliteratedText,.translatedText textarea,.textToTranslate,.translatedTransliteratedText {
+  width:100%;
+  padding:10px;
+  font-size: 1.3em;
+  white-space: pre;
+}
+
+caption{
+  font-size: 1.3em;
+  padding:20px;
+}
+
+.home table,.home th, .home td{
+  border:1px solid #555;
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+}
+.home table{
+  min-width: 400px;
+}
+
+.script{
+  color:#222;
+  background: #eee;
+}
+table div{
+  padding:10px;
+}
